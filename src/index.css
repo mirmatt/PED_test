@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "AvertaRegular";
+    src: local("AvertaRegular"), url(./fonts/AvertaRegular.otf) format("opentype");
+}

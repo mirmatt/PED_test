@@ -1,0 +1,18 @@
+.Header {
+    display: flex;
+    width: 100%;
+}
+
+.Logo_container {
+    width: 33.3%;
+    justify-content: flex-start;
+}
+
+.Navigation_container {
+    width: 33.3%;
+}
+
+.Actions_container {
+    width: 33.3%;
+    justify-content: flex-end;
+}
