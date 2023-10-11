@@ -6,12 +6,13 @@ import "./index.css"
 
 const rootEl = document.getElementById("root")
 if (rootEl === null) {
-  throw new Error("Root missing from the index.html")
+	throw new Error("Root missing from the index.html")
 }
 
 const root = ReactDOM.createRoot(rootEl);
+
 root.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>
+	<React.StrictMode>
+		<Home />
+	</React.StrictMode>
 );

@@ -4,15 +4,27 @@
 }
 
 .Logo_container {
-    width: 33.3%;
-    justify-content: flex-start;
+    width: 20%;
+    font-family: "NoeDisplay";
 }
 
 .Navigation_container {
-    width: 33.3%;
+    width: 60%;
+    display: flex;
+    font-family: "AvertaRegular";
+}
+
+.Nav_link {
+    width: fit-content;
+    flex-grow: 1;
 }
 
 .Actions_container {
-    width: 33.3%;
+    display: flex;
+    width: 20%;
     justify-content: flex-end;
+}
+
+.Actions_container > * {
+    flex-grow: 1;
 }

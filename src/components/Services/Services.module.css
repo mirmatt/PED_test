@@ -1,0 +1,22 @@
+.Services {
+    text-align: center;
+    height: 35vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.icon {
+    margin-top: 10vh;
+    fill: #64b4fa !important;
+    scale: 2.3;
+    height: 7vh !important;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-family: "AvertaRegular";
+}
+
+.text {
+    font-family: "AvertaRegular";
+}

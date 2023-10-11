@@ -2,3 +2,26 @@
     font-family: "AvertaRegular";
     src: local("AvertaRegular"), url(./fonts/AvertaRegular.otf) format("opentype");
 }
+
+@font-face {
+    font-family: "AvertaBold";
+    src: local("AvertaBold"), url(./fonts/AvertaBold.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: "NoeDisplay";
+    src: local("NoeDisplay"), url(./fonts/NoeDisplay.ttf) format("truetype");
+}
+
+body {
+	margin: 0;
+}
+
+/* # Colors
+- black #333333
+- yellow-gold #f0be14
+- grey #cccccc
+- grey light #f9f9f9
+- blue #64b4fa
+- blue light #c1e1fd */

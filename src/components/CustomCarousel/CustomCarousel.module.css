@@ -1,0 +1,25 @@
+.CustomCarousel {}
+
+.navButton {
+	background-color: white !important;
+}
+
+.navButton:hover {
+	background-color: white !important;
+	filter: none !important;
+	opacity: 1 !important;
+
+}
+
+.navButton > * {
+	fill: #cccccc !important;
+}
+
+.navButton > *:hover {
+	filter: none !important;
+	opacity: 1 !important;
+}
+
+.indicators {
+	scale: 0.4;
+}

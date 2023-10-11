@@ -1,0 +1,28 @@
+.Reviews {	
+	text-align: left;
+	height: 35vh;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.Averta {
+	font-family: "AvertaRegular";
+	font-style: italic;
+	color: #333333;
+	font-size: 1.1rem;
+	/* line-height: 1.2rem; */
+}
+
+.bottomReview {
+	margin-top: 1vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.AvertaBold {
+	display: inline-block;
+	margin: 0 !important;
+	font-family: "AvertaRegular";
+	font-weight: bold;
+	color: #333333;
+}

@@ -1,0 +1,115 @@
+.BodyMobile {
+    /* font-family: "AvertaRegular"; */
+	padding-bottom: 10vh;
+}
+
+.AvertaRegular {
+	font-family: "AvertaRegular";
+	color: #333333;
+	font-size: 1.1rem;
+	line-height: 170%;
+}
+
+.NoeFontBold {
+	font-family: "NoeDisplay" !important;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #333333;
+}
+
+.horizontalSpacer {
+	padding: 0 5vw;
+}
+
+.twoTop {
+	margin-top: 2vh !important;
+}
+
+.sixTop {
+	margin-top: 6vh !important;
+}
+
+.eightTop {
+	margin-top: 8vh;
+}
+
+.centerAlign {
+	text-align: center;
+}
+
+.markHighliter {
+	/* background-color: #c1e1fd; */
+	background:linear-gradient(180deg, transparent 70%, #c1e1fd 50%);
+}
+
+.stripedContainer {
+	margin: 12vh -5vw 0;
+	padding: 0 5vw;
+	position: relative;
+	/* overflow: hidden; */
+}
+
+.stripedContainer::before {
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 200%;
+	top: -50%;
+	left: -30%;
+	background: url(../../images/background.png)0 0 repeat;
+	transform: rotate(70deg);
+	z-index: -1;
+}
+
+.stripedInvertedContainer {
+	margin: 8vh -5vw 0;
+	padding: 0 5vw;
+	position: relative;
+}
+
+.stripedInvertedContainer::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top: -55%;
+	left: -30%;
+	background: url(../../images/background.png)0 0 repeat;
+	transform: rotate(290deg);
+	z-index: -1;
+}
+
+
+.villaContainer {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.villaText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 2rem !important;
+    font-family: "NoeDisplay" !important;
+	width: 100% !important;
+	word-spacing: 5px;
+}
+.villaImage {
+	width: 100%;
+}
+
+.villasButton {
+	background-color: #f0be14 !important;
+	font-family: "AvertaRegular" !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	padding: 2vh 10vw !important;
+	letter-spacing: 3px !important;
+}
+
+.quoteIcon {
+	margin-top: 6vh;
+	margin-bottom: 1vh;
+}
