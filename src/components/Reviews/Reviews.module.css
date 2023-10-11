@@ -1,6 +1,6 @@
 .Reviews {	
 	text-align: left;
-	height: 35vh;
+	min-height: 350px;
 	width: 60%;
 	margin: 0 auto;
 }

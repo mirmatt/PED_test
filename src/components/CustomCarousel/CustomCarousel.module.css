@@ -1,4 +1,6 @@
-.CustomCarousel {}
+.CustomCarousel {
+	min-height: 300px;
+}
 
 .navButton {
 	background-color: white !important;

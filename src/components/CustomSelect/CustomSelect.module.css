@@ -1,0 +1,17 @@
+.CustomSelect {
+	width: 100%;
+}
+
+
+.Label {
+	color: #cccccc;
+	font-size: 0.9rem;
+	font-family: "AvertaRegular";
+}
+
+.inputProper {
+	width: 100%;
+	font-family: "AvertaRegular" !important;
+	background-color: #f9f9f9;
+	color: #333333;
+}

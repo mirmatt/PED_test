@@ -1,0 +1,104 @@
+.Search {
+	padding: 0 5vw 3vh;
+}
+
+.Flex {
+	display: flex;
+}
+
+.Title {
+	flex-grow: 1;
+	text-align: center;
+	font-family: "AvertaRegular";
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+
+.Label {	
+	color: #cccccc;
+	font-size: 0.9rem;
+	font-family: "AvertaRegular";
+}
+
+.Input {
+	font-family: "AvertaRegular";
+	border-radius: 0 !important;
+	width: 100%;
+	background-color: #f9f9f9;
+	color: #333333;
+}
+
+
+.buttonFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.datesFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dateLabel {
+	width: 50%;
+}
+
+.dateInput {
+	width: 50%;
+	background-color: #f9f9f9;
+}
+
+
+.leftDate > * > * {
+	/* background-color: red !important; */
+	border-right: none !important;
+	border-radius: 0px !important;
+}
+.rightDate > * > * {
+	border-left: none !important;
+	border-radius: 0px !important;
+}
+
+.currencyFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.currencyButtonFlex {
+	display: flex;
+}
+
+.currencyFlex > p {
+	flex-grow: 1;
+}
+
+.rangeDisplay {
+	color: #333333;
+	font-family: "AvertaRegular";
+	text-align: end;
+}
+
+.actionFlex {
+	display: flex;
+	justify-content: space-between;
+}
+.resetButton {
+	color: #f0be14 !important;
+	background-color: white !important;
+	font-family: "AvertaRegular" !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	padding: 2vh 6vw !important;
+	letter-spacing: 3px !important;
+
+}
+.applyButton {
+	color: white !important;
+	background-color: #f0be14 !important;
+	font-family: "AvertaRegular" !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	padding: 2vh 6vw !important;
+	letter-spacing: 3px !important;
+}

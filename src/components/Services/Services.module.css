@@ -1,6 +1,6 @@
 .Services {
     text-align: center;
-    height: 35vh;
+    min-height: 350px;
     width: 80%;
     margin: 0 auto;
 }

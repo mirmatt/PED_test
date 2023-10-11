@@ -1,20 +1,23 @@
-import React, { FC } from 'react';
-import styles from './Home.module.css';
-import Header from '../../components/Header/Header';
-import Body from '../../components/Body/Body';
-import { useMediaQuery } from '@mui/material';
-import HeaderMobile from '../../components/HeaderMobile/HeaderMobile';
-import BodyMobile from '../../components/BodyMobile/BodyMobile';
+import React, { FC, useState } from "react";
+import styles from "./Home.module.css";
+import { useMediaQuery } from "@mui/material";
+import HeaderMobile from "../../components/HeaderMobile/HeaderMobile";
+import BodyMobile from "../../components/BodyMobile/BodyMobile";
+import Search from "../../components/Search/Search";
 
-interface HomeProps { }
+interface HomeProps {}
 
 const Home: FC<HomeProps> = () => {
+    const isMobile = useMediaQuery("(max-width: 915px)");
+	const [isSearchOpen, setSearch] = useState<boolean>(false);
 
-  const isMobile = useMediaQuery("(max-width: 915px)")
-  return (<div className={styles.Home}>
-	{isMobile ? <HeaderMobile/> : <Header/>}
-    {isMobile ? <BodyMobile/> : <Body/>}
-  </div>)
+    return (
+        <div className={styles.Home}>
+			{isSearchOpen ? <Search openSearch={setSearch}></Search> : ""}
+            {isMobile && !isSearchOpen ? <HeaderMobile setSearch={setSearch} /> : ""}
+            {isMobile && !isSearchOpen ? <BodyMobile /> : ""}
+        </div>
+    );
 };
 
 export default Home;

@@ -24,6 +24,7 @@ const CustomCarousel: FC<CustomCarouselProps> = (props) => {
 		indicatorIconButtonProps = {{
 			className: styles.indicators
 		}}
+		className={styles.CustomCarousel}
       >
         {props.children}
       </Carousel>

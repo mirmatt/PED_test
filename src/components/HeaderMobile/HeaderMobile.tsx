@@ -6,13 +6,14 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import SearchIcon from "@mui/icons-material/Search";
-import { AppBar, Button, Divider, Link, Toolbar, Typography } from "@mui/material";
+import { AppBar, Button, Divider, Toolbar } from "@mui/material";
 
-interface HeaderMobileProps {}
+interface HeaderMobileProps {
+	setSearch: Function
+}
 
-const HeaderMobile: FC<HeaderMobileProps> = () => {
+const HeaderMobile: FC<HeaderMobileProps> = (props) => {
     const [isNavOpen, setNav] = useState<boolean>(false);
-	const [isSearchOpen, setSearch] = useState<boolean>(false);
 
     return (
         <AppBar position="relative" className={styles.HeaderMobile}>
@@ -58,6 +59,7 @@ const HeaderMobile: FC<HeaderMobileProps> = () => {
                                     justifyContent: "start",
                                     color: "#333333",
                                     marginRight: "10vw",
+									fontFamily: "AvertaRegular"
                                 }}
                             >
                                 {navEl.label}
@@ -71,7 +73,7 @@ const HeaderMobile: FC<HeaderMobileProps> = () => {
                         size="large"
                         edge="start"
                         onClick={() => {
-							setSearch(true)
+							props.setSearch(true)
                         }}
                     >
                         <SearchIcon></SearchIcon>
